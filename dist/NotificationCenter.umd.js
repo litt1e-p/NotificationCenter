@@ -2,7 +2,7 @@
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
   (global = global || self, factory(global.NotificationCenter = {}));
-}(this, function (exports) { 'use strict';
+}(this, (function (exports) { 'use strict';
 
   /*!
    * Vue.js v2.6.10
@@ -8434,4 +8434,4 @@
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
-}));
+})));
