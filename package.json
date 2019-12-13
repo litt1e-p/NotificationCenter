@@ -1,5 +1,5 @@
 {
-  "name": "@litt1e-p/NotificationCenter",
+  "name": "@litt1e-p/notification-center",
   "version": "0.0.1",
   "description": "NotificationCenter for vue which is base on publish-subcribe pattern",
   "config": {
