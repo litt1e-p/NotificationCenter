@@ -1,6 +1,6 @@
 {
   "name": "@litt1e-p/notification-center",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NotificationCenter for vue which is base on publish-subcribe pattern",
   "config": {
     "libName": "NotificationCenter"
@@ -18,13 +18,6 @@
   "main": "dist/NotificationCenter.umd.js",
   "module": "dist/NotificationCenter.esm.js",
   "unpkg": "dist/NotificationCenter.min.js",
-  "scripts": {
-    "build": "rm -rf dist/ && npm run build:browser && npm run build:es && npm run build:umd",
-    "build:browser": "rollup --config build/rollup.config.browser.js",
-    "build:es": "rollup --config build/rollup.config.es.js",
-    "build:umd": "rollup --config build/rollup.config.umd.js",
-    "dev": "cross-env NODE_ENV=development rollup --config build/rollup.config.es.js --watch"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/litt1e-p/NotificationCenter.git"
@@ -35,6 +28,5 @@
   "homepage": "https://github.com/litt1e-p/NotificationCenter#readme",
   "dependencies": {
     "vue": "^2.6.10"
-  },
-  "devDependencies": {}
+  }
 }
