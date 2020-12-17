@@ -1,6 +1,6 @@
 {
   "name": "@litt1e-p/notification-center",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NotificationCenter for vue which is base on publish-subcribe pattern",
   "config": {
     "libName": "NotificationCenter"
@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/litt1e-p/NotificationCenter#readme",
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.12",
+    "core-js": "^3.8.1",
+    "regenerator-runtime": "^0.13.7"
   }
 }
