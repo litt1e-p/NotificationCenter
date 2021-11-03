@@ -1,6 +1,6 @@
 # NotificationCenter
 
-NotificationCenter for vue which is base on publish-subcribe pattern and Vue emitter
+NotificationCenter for vue2.x which is base on publish-subcribe pattern and Vue emitter
 
 # Installation
 
